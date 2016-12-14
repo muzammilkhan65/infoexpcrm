@@ -1,0 +1,57 @@
+
+
+<suite name="infocrm" verbose="3" parallel="tests" Thread-count="3" >
+
+
+<Test name="entireproject_firefox">
+
+    <parameter name="brawser" value="firefox" />
+
+
+<classes>
+
+  <groups>
+  <run>
+  
+   <include name ="smaoke"> </include>
+  
+  
+  </run>
+ 
+  </groups>
+
+<class>homepag.testDataprovider.java</class>
+<class>homepag.tess.java</class>
+
+
+<methods>
+
+<include name="test5">  </include>
+<exclude name="test4">  </exclude>
+
+</methods>
+</classes>
+</Test>
+
+
+<Test name="entireproject_chrome">
+<parameter> name="brawser" value="chrome" </parameter>
+
+<classes>
+ <groups>
+ <run>
+  <include name ="smaoke"> </include>
+ </run>
+ 
+  </groups>
+        <class>src/main/java/loginpage.java</class>
+
+<methods>
+<include name="test5">  </include>
+<exclude name="test4">  </exclude>
+</methods>
+</classes>
+</Test>
+
+
+</suite>

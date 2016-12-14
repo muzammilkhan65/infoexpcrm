@@ -1,0 +1,37 @@
+
+
+<suite name="evs">
+      <listeners>
+
+       <listener class-name="Listner_Demo.Listner.java" >
+
+        </listener>
+     </listeners>
+  <test name= "Testname">
+
+       <groups>
+        <run>
+                  <include name="smoke" />
+        </run>
+      </groups>
+
+       <classes>
+
+   <class name="Listner_Demo.TestCases.java">
+      </class>
+    </classes>
+
+</test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
