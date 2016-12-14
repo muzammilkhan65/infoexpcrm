@@ -74,9 +74,22 @@ public class mergearray {
 			   System.out.println("Number = " + number);
 		Arrays.sort(Arr);
 		
-		
+		sortarr();
 		
 		
 	}
 	
-	}}
+	}
+public static void sortarr(){
+	int arr[]={1,2,3,4,5,5,4,3,3,2,3,5,6,7,8,9,7,6,6};
+	for(int number : arr){
+		System.out.println("number  :" +number);
+		Arrays.sort(arr);
+		
+		
+	}
+	
+	
+}
+
+}
